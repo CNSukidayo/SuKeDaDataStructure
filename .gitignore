@@ -25,6 +25,7 @@ launcher.bat
 
 markdown/*
 !markdown/数据结构与算法.md
+!markdown/resources/
 src/test
 src/main/java/**/script
 
