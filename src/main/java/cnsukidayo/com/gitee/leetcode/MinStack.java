@@ -39,32 +39,32 @@ class MinStack {
         return minStack.top();
     }
 
-    private static class IStack {
+private static class IStack {
 
-        private Node top = null;
+    private Node top = null;
 
-        public int top() {
-            return top.value;
-        }
-
-        public void pop() {
-            top = top.pre;
-        }
-
-        public void push(int value) {
-            Node node = new Node(value, top);
-            top = node;
-        }
+    public int top() {
+        return top.value;
     }
 
-    private static class Node {
-        private int value;
-        private Node pre;
-
-        public Node(int value, Node pre) {
-            this.value = value;
-            this.pre = pre;
-        }
+    public void pop() {
+        top = top.pre;
     }
+
+    public void push(int value) {
+        Node node = new Node(value, top);
+        top = node;
+    }
+}
+
+private static class Node {
+    private int value;
+    private Node pre;
+
+    public Node(int value, Node pre) {
+        this.value = value;
+        this.pre = pre;
+    }
+}
 
 }
