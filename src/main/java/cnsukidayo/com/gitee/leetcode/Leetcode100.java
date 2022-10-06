@@ -1,4 +1,4 @@
-package cnsukidayo.com.gitee;
+package cnsukidayo.com.gitee.leetcode;
 
 import javax.swing.tree.TreeNode;
 
