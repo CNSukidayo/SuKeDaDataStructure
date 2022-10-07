@@ -28,6 +28,7 @@ markdown/*
 !markdown/resources/
 src/test
 src/main/java/**/script
+src/main/java/**/match
 
 target/
 pom.xml.tag
