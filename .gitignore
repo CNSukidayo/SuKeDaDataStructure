@@ -29,6 +29,7 @@ markdown/*
 src/test
 src/main/java/**/script
 src/main/java/**/match
+src/main/java/**/course
 
 target/
 pom.xml.tag
