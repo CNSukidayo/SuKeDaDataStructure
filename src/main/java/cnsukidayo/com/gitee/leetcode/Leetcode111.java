@@ -1,9 +1,5 @@
 package cnsukidayo.com.gitee.leetcode;
 
-import javax.swing.tree.TreeNode;
-import java.util.ArrayDeque;
-import java.util.Queue;
-
 /**
  * @author: sukidayo
  * @date: 2022/10/6 16:00

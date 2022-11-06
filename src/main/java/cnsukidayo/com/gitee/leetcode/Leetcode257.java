@@ -13,21 +13,24 @@ public class Leetcode257 {
     List<String> result = new ArrayList<>();
 
     public List<String> binaryTreePaths(TreeNode root) {
-        StringBuilder value = new StringBuilder();
-        getString(root, value.append(root.val));
+        backTracking(root, "");
         return result;
     }
 
-    private void getString(TreeNode root, StringBuilder value) {
+    private void backTracking(TreeNode root, String road) {
+
         if (root.left == null && root.right == null) {
-            result.add(value.toString());
+            result.add(road + root.val);
         }
+        // 构造左子树
         if (root.left != null) {
-            getString(root.left, value.append("->").append(root.left.val));
+            backTracking(root.left, road + root.val + "->");
         }
+        // 构造右子树
         if (root.right != null) {
-            getString(root.right, value.append("->").append(root.right.val));
+            backTracking(root.right, road + root.val + "->");
         }
     }
+
 
 }
