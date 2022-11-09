@@ -7,7 +7,7 @@ import java.util.List;
  * @author: sukidayo
  * @date: 2022/11/7 19:03
  */
-public class Leetcode39 {
+public class Leetcode40 {
 
     private List<List<Integer>> result;
     private int target;
