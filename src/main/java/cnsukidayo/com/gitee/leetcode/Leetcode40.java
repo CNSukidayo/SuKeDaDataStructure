@@ -13,7 +13,7 @@ public class Leetcode40 {
     private int target;
     private int[] candidates;
 
-    public List<List<Integer>> combinationSum(int[] candidates, int target) {
+    public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         this.target = target;
         this.result = new ArrayList<>();
         this.candidates = candidates;
