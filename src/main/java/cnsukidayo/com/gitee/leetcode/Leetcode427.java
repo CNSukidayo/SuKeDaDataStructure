@@ -1,6 +1,6 @@
 package cnsukidayo.com.gitee.leetcode;
 
-import cnsukidayo.com.gitee.script.Node;
+import cnsukidayo.com.gitee.leetcode.Leetcode558.Node;
 
 /**
  * @author: sukidayo
